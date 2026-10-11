@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Karim | Full-Stack Developer & AI Enthusiast</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glow-bg {
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.12) 0%, rgba(3, 7, 18, 0) 70%);
+        }
+    </style>
+</head>
+<body class="bg-[#030712] text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Background Ambient Glow -->
+    <div class="fixed inset-0 glow-bg pointer-events-none -z-10"></div>
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#030712]/80 backdrop-blur-md border-b border-slate-800/60">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-indigo-500 animate-pulse"></span> Abdul Karim
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-indigo-400 transition">About</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-indigo-400 transition">Contact</a>
+            </nav>
+            <a href="#contact" class="hidden md:inline-flex px-5 py-2.5 text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-500 rounded-full transition shadow-lg shadow-indigo-600/20">Let's Connect</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-6 pt-24 relative overflow-hidden">
+        <div class="max-w-4xl text-center z-10">
+            
+            <!-- Profile Photo Container -->
+            <div class="mb-8 flex justify-center">
+                <div class="relative w-36 h-36 md:w-44 md:h-44 rounded-full p-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-2xl">
+              
+                    <img src="photo.jpg" alt="Abdul Karim" class="w-full h-full object-contained rounded-full bg-slate-900">
+                </div>
+            </div>
+
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 text-xs font-semibold mb-6 shadow-inner">
+                <i class="fa-solid fa-sparkles"></i> Available for Full-Stack & AI Opportunities
+            </div>
+            <h1 class="text-4xl md:text-7xl font-extrabold tracking-tight text-white leading-tight">
+                Building the Future with <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">Code & AI</span>
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto font-normal leading-relaxed">
+                Hi, I'm <strong class="text-slate-200">Abdul Karim</strong>. A Full-Stack Web Developer turning complex ideas into clean, scalable applications and smart digital solutions.
+            </p>
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-2xl transition shadow-xl shadow-indigo-600/25 flex items-center gap-2">
+                    Explore Projects <i class="fa-solid fa-arrow-right text-sm"></i>
+                </a>
+                <a href="#contact" class="px-8 py-4 glass-card hover:bg-slate-800/80 text-slate-200 font-semibold rounded-2xl transition border border-slate-700/60">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-28 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">About <span class="text-indigo-400">Me</span></h2>
+            <p class="text-slate-400 mt-2 text-sm">My background, focus, and passion</p>
+        </div>
+        <div class="glass-card p-8 md:p-10 rounded-3xl shadow-2xl relative overflow-hidden">
+            <div class="absolute -right-20 -bottom-20 w-60 h-60 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <p class="text-slate-300 leading-relaxed text-base md:text-lg relative z-10">
+                I am a passionate web developer focused on building modern full-stack applications using technologies like <span class="text-indigo-300 font-semibold">React, Next.js, Node.js, Express, and MongoDB</span>. Along with web engineering, I leverage cutting-edge artificial intelligence, advanced prompt engineering, and modern tools to maximize productivity and build smart, efficient solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-28 px-6 max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Technical <span class="text-indigo-400">Expertise</span></h2>
+            <p class="text-slate-400 mt-2 text-sm">Core technologies and tools I work with</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Frontend -->
+            <div class="glass-card p-8 rounded-3xl hover:border-indigo-500/40 transition duration-300 group">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 text-xl mb-6 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Frontend Development</h3>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400 text-xs"></i> HTML5 & CSS3</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400 text-xs"></i> Tailwind CSS</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400 text-xs"></i> JavaScript (ES6+)</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-indigo-400 text-xs"></i> React.js / Next.js</li>
+                </ul>
+            </div>
+            <!-- Backend -->
+            <div class="glass-card p-8 rounded-3xl hover:border-indigo-500/40 transition duration-300 group">
+                <div class="w-12 h-12 rounded-2xl bg-purple-500/10 flex items-center justify-center text-purple-400 text-xl mb-6 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Backend & Database</h3>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-400 text-xs"></i> Node.js</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-400 text-xs"></i> Express.js</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-400 text-xs"></i> MongoDB Atlas</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-purple-400 text-xs"></i> RESTful APIs</li>
+                </ul>
+            </div>
+            <!-- Tools & AI -->
+            <div class="glass-card p-8 rounded-3xl hover:border-indigo-500/40 transition duration-300 group">
+                <div class="w-12 h-12 rounded-2xl bg-pink-500/10 flex items-center justify-center text-pink-400 text-xl mb-6 group-hover:scale-110 transition">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Tools & AI</h3>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-400 text-xs"></i> Git & GitHub</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-400 text-xs"></i> VS Code</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-400 text-xs"></i> Prompt Engineering</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-pink-400 text-xs"></i> Google AI Tools</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-28 px-6 max-w-5xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Featured <span class="text-indigo-400">Projects</span></h2>
+            <p class="text-slate-400 mt-2 text-sm">Some of my recent web applications and works</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="glass-card rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between hover:border-indigo-500/40 transition duration-300">
+                <div class="p-8">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-2xl font-bold text-white">Full-Stack Web App</h3>
+                        <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 text-xs font-semibold rounded-full border border-indigo-500/20">Web App</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        A robust full-stack application featuring user management, dynamic dashboards, secure REST APIs, and database integration.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-800/80 text-indigo-300 px-3 py-1 rounded-full border border-slate-700">React</span>
+                        <span class="text-xs bg-slate-800/80 text-indigo-300 px-3 py-1 rounded-full border border-slate-700">Node.js</span>
+                        <span class="text-xs bg-slate-800/80 text-indigo-300 px-3 py-1 rounded-full border border-slate-700">MongoDB</span>
+                    </div>
+                </div>
+                <div class="px-8 py-5 bg-slate-900/50 border-t border-slate-800/80 flex gap-6 text-sm font-semibold">
+                    <a href="#" class="text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                    <a href="#" class="text-slate-400 hover:text-slate-200 transition flex items-center gap-1.5"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="glass-card rounded-3xl overflow-hidden shadow-2xl flex flex-col justify-between hover:border-indigo-500/40 transition duration-300">
+                <div class="p-8">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-2xl font-bold text-white">AI-Powered Platform</h3>
+                        <span class="px-3 py-1 bg-purple-500/10 text-purple-400 text-xs font-semibold rounded-full border border-purple-500/20">AI Solution</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        An innovative web platform utilizing modern AI prompt frameworks and frontend tools to streamline productivity and data rendering.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-800/80 text-purple-300 px-3 py-1 rounded-full border border-slate-700">Next.js</span>
+                        <span class="text-xs bg-slate-800/80 text-purple-300 px-3 py-1 rounded-full border border-slate-700">Tailwind CSS</span>
+                        <span class="text-xs bg-slate-800/80 text-purple-300 px-3 py-1 rounded-full border border-slate-700">Express</span>
+                    </div>
+                </div>
+                <div class="px-8 py-5 bg-slate-900/50 border-t border-slate-800/80 flex gap-6 text-sm font-semibold">
+                    <a href="#" class="text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1.5"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                    <a href="#" class="text-slate-400 hover:text-slate-200 transition flex items-center gap-1.5"><i class="fa-brands fa-github"></i> Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-28 px-6 max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Let's Build <span class="text-indigo-400">Something Great</span></h2>
+        <p class="text-slate-400 mb-10 max-w-lg mx-auto text-sm leading-relaxed">Have a project, job opportunity, or question in mind? My inbox is always open.</p>
+        <a href="mailto:your.email@example.com" class="inline-flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-2xl transition shadow-xl shadow-indigo-600/25 text-base">
+            <i class="fa-solid fa-envelope"></i> Send Me an Email
+        </a>
+        <div class="flex justify-center space-x-6 mt-12 text-xl text-slate-400">
+            <a href="#" class="w-12 h-12 rounded-2xl glass-card flex items-center justify-center hover:text-indigo-400 hover:border-indigo-500/40 transition"><t class="fa-brands fa-github"></t><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="w-12 h-12 rounded-2xl glass-card flex items-center justify-center hover:text-indigo-400 hover:border-indigo-500/40 transition"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="w-12 h-12 rounded-2xl glass-card flex items-center justify-center hover:text-indigo-400 hover:border-indigo-500/40 transition"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center border-t border-slate-900 text-slate-500 text-xs">
+        <p>© 2026 Abdul Karim. Crafted with precision and Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
